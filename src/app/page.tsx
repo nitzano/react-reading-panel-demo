@@ -5,10 +5,17 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main} style={{ display: "flex" }}>
+    <main
+      className={styles.main}
+      style={{ display: "flex", userSelect: "none" }}
+    >
       <h1>React Reading Panel Demo</h1>
-      <ReadingPanel targetId="sample"></ReadingPanel>
-      <div className={styles.sampleText} id="sample" style={{ marginTop: 20 }}>
+      <ReadingPanel  targetId="sample"></ReadingPanel>
+      <div
+        className={styles.sampleText}
+        id="sample"
+        style={{ marginTop: 20, userSelect: "none" }}
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Eget nunc
         scelerisque viverra mauris in aliquam. Sit amet commodo nulla facilisi.
