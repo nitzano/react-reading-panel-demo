@@ -8,4 +8,5 @@
 
 .sampleText {
   max-width: 900px;
+  user-select: none;
 }
