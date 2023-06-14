@@ -2333,14 +2333,14 @@ __metadata:
     next: 13.4.5
     react: 18.2.0
     react-dom: 18.2.0
-    react-reading-panel: ^1.2.0
+    react-reading-panel: ^1.2.1
     typescript: 5.1.3
   languageName: unknown
   linkType: soft
 
-"react-reading-panel@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "react-reading-panel@npm:1.2.0"
+"react-reading-panel@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "react-reading-panel@npm:1.2.1"
   dependencies:
     lodash: ^4.17.21
     react: ^18.2.0
@@ -2349,7 +2349,7 @@ __metadata:
   peerDependencies:
     react: ^18.0
     react-dom: ^18.0
-  checksum: 3b72e5da7cdde718b295c52af88ae5b6fc2a9935635ae184dffbba341cfb0e9138ce728ca0e7f63b6eaebb0ec38a8335644f02af4a107e33f0e8503fd8f625a1
+  checksum: 93e8258c8d9bd9301d50d03e9a017efb8f24fb06f46fcc809a0ecab0af73be33f31b1ffae34b8c3744ec4b3677529082bd200bda0d7b9b486bc1ab8d24d7424f
   languageName: node
   linkType: hard
 

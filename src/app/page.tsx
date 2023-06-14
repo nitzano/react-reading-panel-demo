@@ -10,7 +10,7 @@ export default function Home() {
       style={{ display: "flex", userSelect: "none" }}
     >
       <h1>React Reading Panel Demo</h1>
-      <ReadingPanel  targetId="sample"></ReadingPanel>
+      <ReadingPanel targetId="sample"></ReadingPanel>
       <div
         className={styles.sampleText}
         id="sample"
